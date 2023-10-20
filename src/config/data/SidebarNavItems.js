@@ -1,6 +1,5 @@
 import HomeIcon from '@mui/icons-material/Home';
 import CalculateIcon from '@mui/icons-material/Calculate';
-import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import NetworkCheckIcon from '@mui/icons-material/NetworkCheck';
 import AddTaskIcon from '@mui/icons-material/AddTask';
