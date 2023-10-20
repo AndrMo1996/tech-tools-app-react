@@ -1,0 +1,41 @@
+.subtask-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-form{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    left: 10px;
+    height: 35px;
+    bottom: 0;
+}
+
+.checkbox-form{
+    padding-top: 10px;
+    display: flex;
+}
+
+.checkbox-item{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.entities-box{
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 100%;
+    height: 100;
+    align-items: center;
+    border-width: 2px;
+}
+
+.status-bar{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+}

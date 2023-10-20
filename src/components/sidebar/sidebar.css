@@ -1,0 +1,100 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 275px;
+    background-color:  #1F2937;
+    font-family: Avenir-Next,sans-serif;
+    color: white;
+    font-size: 16pt;
+    transition: 0.4s;
+}
+
+.sidebar-logo{
+    position: relative;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.arrow{
+    background-color:  #1F2937;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    right: -13px;
+    top: 22px;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.arrow.inactive{
+    transform: rotate(0.5turn);
+}
+
+.logo-img{
+    width: 50px;
+    height: 50px;
+}
+
+.logo-text{
+    display: inline-block;
+    padding-left: 1rem;
+    white-space: nowrap;
+    
+}
+
+.sidebar-menu{
+    margin-top: 20px;
+    z-index: 2;
+}
+
+.sidebar-menu-item{
+    display: flex;
+    align-items: center;
+    place-content: flex-start;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 5px 0 5px;
+    white-space: nowrap;
+    
+}
+
+.sidebar-menu-item:hover{
+    background-color: #374151;
+    border-radius: 5px;
+}
+
+.sidebar-menu-item-icon{
+    margin-right: 0.5rem;
+}
+
+.sidebar-fotter{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.sidebar-menu-item-text.inactive{
+    display: none;
+    white-space: nowrap;
+}
+
+.logo-text.inactive{
+    display: none;
+    white-space: nowrap;
+}
+
+.sidebar.inactive{
+    width: 80px;
+}
+
+.sidebar-menu-item.active{
+    background-color: #111827;
+    border-radius: 5px;
+}

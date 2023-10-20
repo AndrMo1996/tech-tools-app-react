@@ -1,0 +1,35 @@
+.estimate__view {
+  margin-top: 15px;
+  background-color: white;
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+  height: 50vh;
+  border-radius: 5px;
+  overflow: hidden;
+  word-break: break-all;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.9);
+  white-space: pre-line;
+}
+
+.entity__type {
+  font-weight: bold;
+}
+
+.entity__info {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-weight: normal;
+}
+
+.custom__field__title {
+  margin-top: 10px;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.custom__fields {
+  font-style: italic;
+  margin-left: 20px;
+}

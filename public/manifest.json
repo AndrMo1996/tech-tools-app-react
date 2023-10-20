@@ -1,0 +1,8 @@
+{
+  "short_name": "Tech Tools",
+  "name": "Tech Tools App",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
