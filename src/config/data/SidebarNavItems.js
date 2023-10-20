@@ -35,5 +35,5 @@ export const sidebarNavItems = [
         icon: <BarChartIcon />,
         link: "/statistics",
         section: "statistics"
-    }
+    },
 ]
